@@ -17,6 +17,6 @@ void main() {
 class MyApp extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const MaterialApp(home: Home());
+    return const MaterialApp(home: TodoListPage());
   }
 }

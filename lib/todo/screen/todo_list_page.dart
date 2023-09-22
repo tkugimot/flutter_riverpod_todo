@@ -15,8 +15,8 @@ final allFilterKey = UniqueKey();
 
 const _uuid = Uuid();
 
-class Home extends HookConsumerWidget {
-  const Home({Key? key}) : super(key: key);
+class TodoListPage extends HookConsumerWidget {
+  const TodoListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
